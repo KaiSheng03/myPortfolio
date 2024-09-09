@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import ProjectItem from './ProjectItem'
 import Experience from '@/shared/Project'
 
-function Competition({competition}) {
+function Competition() {
     const [competition, setCompetition] = useState();
     const [loading, setLoading] = useState(true);
     
