@@ -2,7 +2,7 @@ import ProjectItem from '@/components/ProjectItem'
 import React, { useEffect, useState } from 'react'
 import Project from '@/shared/Project'
 
-function index() {
+function Index() {
     const [project, setProject] = useState();
     const [loading, setLoading] = useState(true);
 
@@ -37,4 +37,4 @@ function index() {
     )
 }
 
-export default index
+export default Index
